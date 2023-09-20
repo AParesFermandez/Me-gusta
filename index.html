@@ -10,23 +10,62 @@
 </head>
 
 <body>
-    <div class="nav">
-
+    <div class="top">
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <div class="subtitle">
+            <h2>Your Feed</h2>
+        </div>
     </div>
     <div class="container">
-        <div class="tarjeta">
-            <div class="likes">
-                <div>
-                    <h4>Some Else <h4>
-                </div>
-                <div>
-                    <span id="post-1"> 9 like(s) </span>
-                    <button class="like-btn" onclick="like(1)">Like</button>
+        <div class="row">
+            <div class="col-iz">
+                <div class="tarjeta1">
+                    <img src="img/user-circle.png" alt="imagen perfil">
+                    <a href="#">Add an Avatar</a>
+                    <h2>James Doe</h2>
                 </div>
             </div>
-            <p>This is something filter text, ir can say anything
-                we like
-            </p>
+            <div class="col-der">
+                <div class="tarjeta2">
+                    <div class="likes">
+                        <div>
+                            <h4>Neil M<h4>
+                        </div>
+                        <div>
+                            <span id="post-1"> 9 like(s) </span>
+                            <button class="like-btn" onclick="like(1)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+                    </p>
+                </div>
+                <div class="tarjeta2">
+                    <div class="likes">
+                        <div>
+                            <h4>Nichole K<h4>
+                        </div>
+                        <div>
+                            <span id="post-2"> 12 like(s) </span>
+                            <button class="like-btn" onclick="like(2)">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                </div>
+                <div class="tarjeta2">
+                    <div class="likes">
+                        <div>
+                            <h4>Jim R</h4>
+                        </div>
+                        <div>
+                            <span id="post-3"> 9 like(s) </span>
+                            <button class="like-btn" onclick="like(3)">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a> who else is liking it?</p>
+                </div>
+            </div>
         </div>
     </div>
     <script src="node.js"></script>

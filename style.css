@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-    height: 150px;
-    width: 400px;
+    width: 1080px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .like-btn {
@@ -19,17 +20,61 @@ body {
 }
 
 .nav {
-    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 860px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
     margin-bottom: 30px;
 }
 
-.tarjeta {
+.row{
+    display:flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.col-iz{
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.col-der{
+    padding: 10px;
+    margin: 10px;
+    flex: 2;
+}
+
+.tarjeta1, .tarjeta2 {
     border: 3px solid black;
     padding: 5px 20px;
 }
 
+.tarjeta1{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta2 {
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 .likes {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
